@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <mask id="bite"><rect width="400" height="400" fill="#fff"/><g fill="#000">
+      <circle cx="262" cy="50" r="30"/>
+      <circle cx="298" cy="80" r="30"/>
+      <circle cx="312" cy="122" r="28"/>
+    </g></mask>
+    <clipPath id="above"><rect x="0" y="0" width="400" height="226"/><rect x="0" y="244" width="400" height="156"/><rect x="0" y="0" width="136" height="400"/></clipPath>
+    <clipPath id="band"><rect x="136" y="226" width="264" height="18"/></clipPath>
+    <g id="L">
+    <rect x="60" y="60" width="56" height="280"/>
+    <rect x="60" y="284" width="170" height="56"/>
+    <path fill-rule="evenodd" d="M140 60 H232 A68 68 0 0 1 232 196 H140 Z M196 116 H232 A12 12 0 0 1 232 140 H196 Z"/>
+    <path fill-rule="evenodd" d="M140 140 H220 A100 100 0 0 1 220 340 H140 Z M196 196 H220 A44 44 0 0 1 220 284 H196 Z"/>
+    </g>
+  </defs>
+  
+  <g fill="#D4FF3A" mask="url(#bite)">
+    <g clip-path="url(#above)"><use href="#L"/></g>
+    <g clip-path="url(#band)" transform="translate(14 0)"><use href="#L"/></g>
+  </g>
+  <g fill="#D4FF3A">
+          <rect x="322" y="62" width="14" height="14"/>
+          <rect x="344" y="40" width="10" height="10"/>
+          <rect x="342" y="92" width="8" height="8"/>
+        </g>
+</svg>
